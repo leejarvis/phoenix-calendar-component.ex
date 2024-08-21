@@ -27,3 +27,5 @@ def handle_info({:month_changed, date}, socket) do
   {:noreply, assign(socket, events: fetch_events_for_month(date))}
 end
 ```
+
+You can see a demo here: https://leejarvis.me/posts/2024/phoenix-calendar-component
